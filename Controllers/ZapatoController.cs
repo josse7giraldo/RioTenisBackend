@@ -8,7 +8,7 @@ namespace Rio.Tenis.Backend.Controllers
     [ApiController]
     [Route("api/[controller]")]
     public class ZapatoController : ControllerBase
-    {
+    { 
         private RioTenisDBContext _context;
 
         private readonly ILogger<ZapatoController> _logger;
