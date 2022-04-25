@@ -13,9 +13,6 @@ namespace Rio.Tenis.Backend.DBContexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Nombres de tablas  
-            modelBuilder.Entity<Zapato>().ToTable("Zapatos");
-
         }
     }
 }

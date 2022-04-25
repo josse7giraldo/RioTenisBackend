@@ -2,7 +2,7 @@
 
 namespace Rio.Tenis.Backend.Models
 {
-    [Table("Zapatos")]
+    [Table("zapatos")]
     public class Zapato
     {
         public int Id { get; set; }
